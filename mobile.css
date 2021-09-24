@@ -6,6 +6,11 @@
     html {
     font-size: 15px;  
     }
+    .galery {
+    box-sizing: border-box;
+    padding-left: 35px;
+    padding-right: 25px;
+    }
 }
 @media screen and (max-width:850px){
     .info{
@@ -18,5 +23,11 @@
     .info img {
     margin-bottom: 30px;
     }
+    .fotos {
+    justify-content: center;   
+    }
+}
+@media screen and (max-width:530px){
+
 }
     
