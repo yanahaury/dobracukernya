@@ -6,6 +6,9 @@
     font-family: 'Lora', serif;
     font-family: 'Noto Sans', sans-serif;
 }
+html{
+    line-height: 1.7;
+}
 body{
     background-color: rgb(255, 255, 255);
 }
@@ -67,7 +70,7 @@ nav{
     width: 260px;
     height: 260px;
 }
-.galery, .about-confectioer {
+.catalog, .about-confectioer {
     width: 100%;
     padding-top: 60px;
     padding-bottom: 60px;
@@ -134,7 +137,7 @@ p {
 .info p {
     width: 30%;
 }
-.galery  h2, .about-confectioer {
+.catalog  h2, .about-confectioer {
     text-align: center;
 }
 .info {
@@ -144,7 +147,7 @@ p {
     margin: 0px 70px;
     width: 400px;
 }
-.galery h1 {
+.catalog h1 {
     text-align: center;
 }
     

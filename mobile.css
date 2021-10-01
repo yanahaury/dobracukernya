@@ -6,7 +6,7 @@
     html {
     font-size: 15px;  
     }
-    .galery {
+    .catalog {
     box-sizing: border-box;
     padding-left: 35px;
     padding-right: 25px;
@@ -26,8 +26,32 @@
     .fotos {
     justify-content: center;   
     }
+    .foto {
+    margin: 0 5px;   
+    }
 }
-@media screen and (max-width:530px){
+@media screen and (max-width:660px){
+    .list {
+    flex-direction: column;   
+    }
+    .product-imgs img {
+        width: 45%;
+        height: 0%;
+        margin: 5px;
+    }
+    .product-imgs{
+        flex-wrap: wrap;
+    }
+    
+}
+@media screen and (max-width:380px){
+    .link-nav a {
+    padding: 0px 4px;   
+    }
+    .catalog {
+     padding-top: 20px;   
+    }
+
 
 }
     
